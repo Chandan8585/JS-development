@@ -9,10 +9,10 @@ count.addEventListener("click", ()=>{
     point++;
    
    count.innerText = `Count is ${point}`;
-    // if(start.innerText==="start"){
-    //     start.innerText = "Begin";
-    // }
-    // else{
-    //     start.innerText = "start";
-    // }
+    if(start.innerText==="start"){
+        start.innerText = "Begin";
+    }
+    else{
+        start.innerText = "start";
+    }
 })
