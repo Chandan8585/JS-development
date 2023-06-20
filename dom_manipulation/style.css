@@ -12,3 +12,8 @@
 .para{
     border: 2px solid black;
 }
+.card{
+    border: 2px solid black;
+    width:min-content;
+    text-align: center;
+}
