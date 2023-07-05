@@ -1,0 +1,27 @@
+.timer{
+    /* display: flex;
+    border: 2px solid black;
+    height: 10rem;
+    width: 10rem; */
+    background-image: linear-gradient(0deg,#bbb,#eee);
+    height: 220px;
+    width: 510px;
+    border: 1px solid #333;
+    border-radius: 10px 7px 4px 7px;
+    text-align: center;
+    user-select: none;
+}
+.minute{
+    font-size: 200px;
+    border-right: 1px solid;
+    width: 250px;
+    text-align: right;
+    padding-right: 25px;
+}
+.seconds{
+    font-size: 200px;
+
+    width: 250px;
+    text-align: left;
+    padding-right: 25px;
+}
