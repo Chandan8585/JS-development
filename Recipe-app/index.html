@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined" />
+    
+</head>
+<body>
+    
+    <nav class="nav">
+        <div class="left">
+        <h1>Recipe-App</h1>
+
+        </div>
+          <div class="center">
+            <input type="text" placeholder="search Product" id="search-input">
+            <span class="material-icons search">
+                search
+                </span>
+          </div>
+          <div class="right">
+            <!-- <a href=""> -->
+                <a href="/"><span class="material-icons heart">
+                favorite_border
+                </span></a>
+            
+                <a href="./cart.html"><span class="material-icons-outlined">
+                  shopping_cart
+                  </span></a>
+                
+            <button class="button btn-primary">Log in</button>
+          </div>
+    </nav>
+    
+    <div class="products-page d-flex">
+      <aside class="side-bar" id="side-bar">
+          <h3 class="heading-3">Filter</h3>
+          
+      </aside>
+    
+        <div class="product-container d-flex wrap gap" id="products"></div>
+      
+
+  </div>
+</body>
+<script type="module" src="./index.js"></script>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</html>
