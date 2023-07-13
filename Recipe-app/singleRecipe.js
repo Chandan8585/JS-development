@@ -1,5 +1,3 @@
-// const cardId = localStorage.getItem("id");
-
 const recipeContainer = document.getElementById("recipe-container");
 const cardRecipe = localStorage.getItem("myId");
 
@@ -26,7 +24,7 @@ recipeContainer.innerHTML = `hiiiiiii ${singleRecipe["ID"]}` ;
 
 const cardContainer = document.createElement("div");
     cardContainer.classList.add("card-container");
-    cardContainer.innerHTML = `<div  class="card card-vertical d-flex direction-column relative shadow" >
+    cardContainer.innerHTML = `<div  class="card card-vertical d-flex direction-column relative shadow" data-id='${singleRecipe["ID"]}' >
     <div class="card-image-container">
          <img class="card-image" src=${singleRecipe["image-url"]} alt="shoes">
                   <div class="cta-btn" data-id='${singleRecipe["ID"]}'>

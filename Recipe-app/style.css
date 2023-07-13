@@ -3,7 +3,8 @@
      --bg-color: white;
  }
 body{
-    background-color: var(--bg-color);
+    background-color: antiquewhite;
+
     
 }
 
@@ -13,7 +14,9 @@ body{
     box-sizing: border-box;
     
 }
-
+.left{
+ color: white;
+}
 .parent {
     border: 5px solid black;
     width: 500px;
@@ -34,10 +37,10 @@ body{
     direction: ltr;
   height: 38px;
     -webkit-font-smoothing: antialiased;
-   color: red;
+   color: white;
 }
   .material-icons-outlined{
-    color: red;
+    color: white;
     font-family: 'Material Icons';
     font-weight: normal;
     font-style: normal;
@@ -60,6 +63,7 @@ body{
    /* 550px; */
    margin-right: 15px;
 
+
   }
   #search-input{
     height: 38px;
@@ -67,9 +71,13 @@ body{
     padding-left: 40px;
     font-size: 1rem;
     border: none;
-    border-bottom: 1px solid red;
+    border-bottom: 1px solid white;
     background-color: transparent;
+    text-emphasis-color: white;
+    
   }
+
+  
 
   .nav{
     display: flex;
@@ -83,7 +91,7 @@ body{
     box-shadow: 1px 2px rgb(210, 208, 208);
     position: fixed;
     margin-top: 0;
-  background-color: antiquewhite;
+  background-color:  #966F33;
     width: 100%;  
     z-index: 1;
   }
@@ -126,31 +134,81 @@ a{
 }
 
 aside{
-    border: 2px solid black;
+    border: 10px solid white;
+    border-radius: 25px;
     height: 50rem;
     width: 20rem;
     margin-left: 2rem;
+
     display: flex;
     justify-content: center;
-    z-index: 0;
+    
 }
 
 .side-bar{
-    
-    position: relative;
-    z-index: 0;
+    display: flex;
+    flex-direction: column;
     margin-top: 10rem;
+    height: fit-content;
+}
+.cuisine-card{
+    color: white;
+    background-color: #966F33;
+    display: flex;
+    margin: 5px;
+    
+    height: 10rem;
+    width: 90%;
+    align-items: start;
+    justify-content: space-between;
+   padding: 1rem;
+   border-radius: 4px;
+   
+}
+.cuisineContainer{
+    color: white;
+    background-color: #966F33;
+    display: flex;
+    margin: 5px;
+    height: 4rem;
+    width: 90%;
+    align-items: start;
+    justify-content: space-between;
+   padding: 1rem;
+   border-radius: 4px;
 }
 
+.filter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: fit-content;
+     align-items: start;  
+
+}
+.filter-label{
+    display: flex;
+    justify-content: center;
+    height: 2rem;
+
+   
+}
+.checkbox{
+    height: 1.2rem;
+    width: 1.2rem;
+    background-color: black;
+}
 .products-page{
     display: flex;
-    
-  
+    justify-content: center;
+    margin-left: 2rem; 
 }
 
 .product-container{
-    border: 2px solid black;
+    border: 10px solid white;
+    border-radius: 25px;
      margin-top: 10rem;
+     margin-left: 2px;
     width: 80%;
     display: flex; 
     flex-direction: row;
@@ -161,10 +219,14 @@ aside{
 }
 .card{
     height: 28.5rem;
+    background-color: #966F33;
+   color: #fff;
 }
 .card-container{
     object-fit: contain;
-    
+    background-color: rgba(165, 42, 42, 0.76);
+    width: 85%;
+   box-shadow: 5px 15px 15px grey;
 }
 .card-image-container{
     height: 15rem;
@@ -172,7 +234,21 @@ aside{
 }
 .card-image{
   width: 100%;
-  height: 100%;
+  height: 80%;
   
 }
+
+.time-ingwhiteient-count{
+ display: flex;
+ justify-content: space-between;
+}
+
+.button{
+    background-color: rgba(0, 128, 0, 0.926);
+}
+
+.recipe-container{
+    color: #000;
+}
+
 
