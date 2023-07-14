@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined" />
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav class="nav">
+        <div class="left">
+        <h1>Movie-Rev-App</h1>
+
+        </div>
+          <div class="center">
+            <input type="text" placeholder="search Product" id="search-input">
+            <span class="material-icons search">
+                search
+                </span>
+          </div>
+          <div class="right">
+            <!-- <a href=""> -->
+                <select class="rating-select" id="rating-select">
+                        <option value="" class="rating">Rating</option>
+                        <option value="7" class="rating">Above 7</option>
+                        <option value="8" class="rating">Above 8</option>
+                        <option value="8.5" class="rating">Above 8.5</option>
+                        <option value="9" class="rating">Above 9</option>
+                        
+                </select>
+                <select class="rating-select" id="genre-select">
+                    <option value="genre">--Genre--</option>
+                    
+            </select>
+            </div>
+    </nav>
+    <div class="space"></div>
+   <section class="movie">
+    <div class="movie-container"></div>
+    
+   </section>
+</body>
+<script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+<script src="./index.js" type="module" defer></script>
+
+</html>
+
+
