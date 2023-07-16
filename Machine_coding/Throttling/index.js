@@ -15,7 +15,7 @@ const throttle = (callback, delay)=> {
 const handleScroll= () => {
     console.log("scrolled");
 }
-
+// para.addEventListener("scroll", handleScroll);
 const throttledScroll = throttle( handleScroll, 500);
 
 
