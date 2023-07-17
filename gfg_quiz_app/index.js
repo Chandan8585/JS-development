@@ -35,7 +35,7 @@ const getQuizzes = async () => {
 
 function createQuestionAndOptions(quizes, index) {
   const questionEle = document.createElement("div");
-  questionEle.innerText = quizes[index]?.question;
+  questionEle.innerText = quizes[index].question;
   questionContainer.appendChild(questionEle);
   
   let options = [quizes[index].correct_answer, ...quizes[index].incorrect_answers ];
