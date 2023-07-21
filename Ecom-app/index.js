@@ -6,3 +6,4 @@ const productContainer = document.getElementById("products");
 for(let product of products){
     const cardContainer = document
 }
+<--Checking-->
