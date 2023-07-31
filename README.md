@@ -1,4 +1,12 @@
-# JS-development
+Movie App
+This app let you to search movie with director, actor or any cast name. Generally, the app is fetching data with movie rating, duration and beautiful movie posters.
 
-JS Node Js Quiz App
-Replit Link= https://replit.com/@035-ChandanChan/Quizify#index.js?embed=1&output=1
+Tech Stack
+HTML/CSS
+Vanilla JS
+live link
+https://movie-app-js-six.vercel.app/
+Screenshots
+Home _ Shopping Mart and 7 more pages - Personal - Microsoft​ Edge 31-07-2023 12_43_32
+
+Home _ Shopping Mart and 7 more pages - Personal - Microsoft​ Edge 31-07-2023 12_43_57
