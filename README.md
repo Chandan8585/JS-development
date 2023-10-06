@@ -6,7 +6,7 @@ HTML/CSS
 Vanilla JS
 live link
 https://movie-app-js-six.vercel.app/
-Screenshots
+Screenshot
 Home _ Shopping Mart and 7 more pages - Personal - Microsoft​ Edge 31-07-2023 12_43_32
 
 Home _ Shopping Mart and 7 more pages - Personal - Microsoft​ Edge 31-07-2023 12_43_57
